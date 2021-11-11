@@ -1,4 +1,4 @@
-## Log-Integrity-Verification
+# Log-Integrity-Verification
 
 Simple utility for the verification of Linux Audit log integrity proofs.
 
@@ -12,7 +12,7 @@ Usage:
 
 Audtit log files to prove must start at the beggining of the proof cycle and each log record must follow sequentially in the order in which they were initially logged.
 
-# Kernel build instructions:
+## Kernel build instructions:
 
 $ sudo apt install -y build-essential ocaml automake autoconf libtool wget python libssl-dev bc swig flex bison libelf-dev libldap2-dev auditd python3-dev python-dev libwrap0-dev libcap-ng-deb
 
